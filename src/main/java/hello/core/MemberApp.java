@@ -10,6 +10,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class MemberApp {
     public static void main(String[] args) {
 //        MemberService memberService = new MemberServiceImpl();
+        //의존관계가 인터페이스 뿐만 아니라 구현까지 모두 의존하는 문제점이 있음
 
         // AppConfig
 //        AppConfig appconfig = new AppConfig();
