@@ -13,6 +13,7 @@ public class MemberServiceImpl implements MemberService {
     // appConfig 를 통해 생성자 주입 코드
     @Autowired // = ac.getBean(MemberRepository.class)
     // 자동 의존관계 주입
+    // 생성자가 오직 1개라면 @Autowired 를 생략할 수 있다.
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
